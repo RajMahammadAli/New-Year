@@ -48,3 +48,170 @@
   font-size: 26px;
   font-weight: 600;
 }
+
+.failour-section {
+  margin: 100px 0 0px 0;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.failure-img {
+  padding: 0;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background-color: rgba(241, 91, 34, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.failour-info {
+  width: 50%;
+  padding: 60px;
+}
+
+.failour-info h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.failour-info p {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.failour-info ul {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.failour-info ul > li {
+  display: flex;
+  gap: 5px;
+}
+
+.failour-girl {
+  width: 480px;
+  height: 570px;
+}
+
+.my-plans {
+  margin: o 30px;
+  padding: 50px;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plan {
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.plan img {
+  width: 90px;
+  height: 90px;
+}
+
+.mindSet {
+  margin: 50px auto;
+  width: 80%;
+  height: 230px;
+  background-image: url(../images/watch.png),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 90px;
+  color: #fff;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.mindSet h2 {
+  width: 459px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.btn-mindSet {
+  margin-top: 10px;
+  width: 160px;
+  height: 57px;
+  border: none;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  background-color: #151414;
+  color: white;
+  padding: 60px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.future {
+  width: 50%;
+}
+
+.future h1 {
+  padding: 0 0 30px 0;
+}
+
+.future p {
+  padding: 0 0 15px 0;
+}
+
+.subscription {
+  width: 50%;
+}
+
+.icons img {
+  width: 40px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.subscription h1 {
+  padding: 0 0 20px 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subscription input {
+  width: 80%;
+  margin-bottom: 10px;
+  display: block;
+  padding: 9px 9px 9px 9px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+}
